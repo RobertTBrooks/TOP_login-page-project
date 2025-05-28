@@ -58,15 +58,17 @@ html, body {
 }
 
 .sign-up-form {
-    flex-direction: column;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     width: 100%;
     padding: 10px;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-side-content {
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 
 .container-right {
@@ -98,16 +100,54 @@ input {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-    input:focus {
+input:focus {
     border-color: #2563eb;
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
     outline: none;
 }
 
-    input.error {
+input.error {
     border-color: #dc2626;
 }
 
+.top-font {
+    padding-top: 20vh;
+    padding-left: 4vh;
+    padding-right: 8vh;
+    padding-bottom: 5vh;
+    font-size: large;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-container {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4vh;
+
+}
+
+.logged-in {
+    margin-top: 3vh;
+    
+}
+
+.submit-button {
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    background-color: #596D48;
+    padding: 10px 40px;
+}
+.submit-button:hover {
+    background-color: #7a9265;
+}
+.submit-button:active {
+    background-color: #596D48;
+    box-shadow: none;
+}
 
 @font-face {
     font-family: odinText;
