@@ -151,5 +151,5 @@ input.error {
 
 @font-face {
     font-family: odinText;
-    src: url(/fonts/Norse-Bold.otf);
+    src: url(./fonts/Norse-Bold.otf);
 }
